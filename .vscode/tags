@@ -4,27 +4,77 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Coneccion.py	../Coneccion.py	1;"	kind:file	line:1
+Dijktra	../dijktras_algorithm.py	/^def Dijktra(graph,costs,parents):$/;"	kind:function	line:44
+Dijktra	../exercises_7.py	/^def Dijktra(graph,costs,parents):$/;"	kind:function	line:79
+Graph	../dijktra.py	/^class Graph:$/;"	kind:class	line:1
+Graph	../graph_flow.py	/^class Graph(object):$/;"	kind:class	line:7
 GraphSearch	../graph_search.py	/^class GraphSearch:$/;"	kind:class	line:5
+__generate_edges	../graph_flow.py	/^    def __generate_edges(self):$/;"	kind:member	line:46
+__init__	../dijktra.py	/^  def __init__(self):$/;"	kind:member	line:2
+__init__	../graph_flow.py	/^    def __init__(self, graph_dict=None):$/;"	kind:member	line:9
 __init__	../graph_search.py	/^    def __init__(self, graph):$/;"	kind:member	line:10
+__str__	../graph_flow.py	/^    def __str__(self):$/;"	kind:member	line:59
 action	../reinforcement_learning.py	/^        action = env.action_space.sample()$/;"	kind:variable	line:8
+add_edge	../dijktra.py	/^  def add_edge(self, from_node, to_node, distance):$/;"	kind:member	line:10
+add_edge	../graph_flow.py	/^    def add_edge(self, edge):$/;"	kind:member	line:35
+add_node	../dijktra.py	/^  def add_node(self, value):$/;"	kind:member	line:7
+add_vertex	../graph_flow.py	/^    def add_vertex(self, vertex):$/;"	kind:member	line:26
+at_136	../Coneccion.py	/^at_136 = 13.14$/;"	kind:variable	line:5
+atenuacion	../Coneccion.py	/^atenuacion = (longitud_L1 * at_136)\/100$/;"	kind:variable	line:6
+best_station	../greedy_algorithms.py	/^            best_station = station$/;"	kind:variable	line:21
+best_station	../greedy_algorithms.py	/^    best_station = None$/;"	kind:variable	line:16
 costs	../dijktras_algorithm.py	/^costs = {}$/;"	kind:variable	line:24
+costsA	../exercises_7.py	/^costsA = {$/;"	kind:variable	line:34
+costsB	../exercises_7.py	/^costsB = {$/;"	kind:variable	line:41
+costsC	../exercises_7.py	/^costsC = {$/;"	kind:variable	line:47
+covered	../greedy_algorithms.py	/^        covered = states_needed & states$/;"	kind:variable	line:19
+dijktra.py	../dijktra.py	1;"	kind:file	line:1
 dijktras_algorithm.py	../dijktras_algorithm.py	1;"	kind:file	line:1
+dijsktra	../dijktra.py	/^def dijsktra(graph, initial):$/;"	kind:function	line:16
+edges	../graph_flow.py	/^    def edges(self):$/;"	kind:member	line:22
 env	../reinforcement_learning.py	/^env = gym.make('CartPole-v0')$/;"	kind:variable	line:2
+exercises_7.py	../exercises_7.py	1;"	kind:file	line:1
 fact	../fact.py	/^def fact(x):$/;"	kind:function	line:1
 fact.py	../fact.py	1;"	kind:file	line:1
+final_stations	../greedy_algorithms.py	/^final_stations = set()$/;"	kind:variable	line:13
 find_all_path	../graph_search.py	/^    def find_all_path(self, start, end, path=None):$/;"	kind:member	line:25
+find_lowest_cost_node	../dijktras_algorithm.py	/^    def find_lowest_cost_node(costs):$/;"	kind:function	line:45
+find_lowest_cost_node	../exercises_7.py	/^    def find_lowest_cost_node(costs):$/;"	kind:function	line:80
+find_path	../graph.py	/^def find_path(graph, start, end, path=[]):$/;"	kind:function	line:14
 find_path	../graph_search.py	/^    def find_path(self, start, end, path=None):$/;"	kind:member	line:13
 find_shortest_path	../graph_search.py	/^    def find_shortest_path(self, start, end, path=None):$/;"	kind:member	line:37
+g	../graph_flow.py	/^    g = { "a" : ["d"],$/;"	kind:variable	line:71
+graph	../Coneccion.py	/^graph = {}$/;"	kind:variable	line:11
 graph	../dijktras_algorithm.py	/^graph = {}$/;"	kind:variable	line:9
+graph	../graph.py	/^graph = {   'A':['B','C'],$/;"	kind:variable	line:7
+graph	../graph_flow.py	/^    graph = Graph(g)$/;"	kind:variable	line:80
 graph	../graph_search.py	/^graph = {'A': ['B', 'C'],$/;"	kind:variable	line:53
+graph.py	../graph.py	1;"	kind:file	line:1
 graph1	../graph_search.py	/^graph1 = GraphSearch(graph)$/;"	kind:variable	line:62
+graphA	../exercises_7.py	/^graphA = {$/;"	kind:variable	line:7
+graphB	../exercises_7.py	/^graphB = {$/;"	kind:variable	line:15
+graphC	../exercises_7.py	/^graphC = {$/;"	kind:variable	line:22
 graph_flow.py	../graph_flow.py	1;"	kind:file	line:1
 graph_search.py	../graph_search.py	1;"	kind:file	line:1
+greedy_algorithms.py	../greedy_algorithms.py	1;"	kind:file	line:1
 gym	../reinforcement_learning.py	/^import gym$/;"	kind:namespace	line:1
 infinity	../dijktras_algorithm.py	/^infinity = float('inf')$/;"	kind:variable	line:23
+infinity	../exercises_7.py	/^infinity = float('inf')$/;"	kind:variable	line:32
+longitud_L1	../Coneccion.py	/^longitud_L1 = 60$/;"	kind:variable	line:4
 observation	../reinforcement_learning.py	/^    observation = env.reset()$/;"	kind:variable	line:4
 parents	../dijktras_algorithm.py	/^parents = {}$/;"	kind:variable	line:32
+parentsA	../exercises_7.py	/^parentsA = {$/;"	kind:variable	line:56
+parentsB	../exercises_7.py	/^parentsB = {$/;"	kind:variable	line:63
+parentsC	../exercises_7.py	/^parentsC = {$/;"	kind:variable	line:69
 processed	../dijktras_algorithm.py	/^processed = []$/;"	kind:variable	line:40
 reinforcement_learning.py	../reinforcement_learning.py	1;"	kind:file	line:1
+start_time	../greedy_algorithms.py	/^start_time = time.time()$/;"	kind:variable	line:2
+states_covered	../greedy_algorithms.py	/^            states_covered = covered$/;"	kind:variable	line:22
+states_covered	../greedy_algorithms.py	/^    states_covered = set()$/;"	kind:variable	line:17
+states_needed	../greedy_algorithms.py	/^states_needed = set(['mt','wa','or','id','nv','ut','ca','az'])$/;"	kind:variable	line:4
+stations	../greedy_algorithms.py	/^stations = {}$/;"	kind:variable	line:6
+time	../greedy_algorithms.py	/^import time$/;"	kind:namespace	line:1
 trimsum	../trimsum.py	/^def trimsum(n, csum):$/;"	kind:function	line:1
 trimsum.py	../trimsum.py	1;"	kind:file	line:1
+vertices	../graph_flow.py	/^    def vertices(self):$/;"	kind:member	line:18
